@@ -1,0 +1,165 @@
+@import "tailwindcss";
+ 
+/* Base Styles */
+
+:root {
+
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+
+  line-height: 1.5;
+
+  font-weight: 400;
+
+  color-scheme: light;
+
+  color: #213547;
+
+  background-color: #f9fafb; /* light gray for better contrast */
+
+  font-synthesis: none;
+
+  text-rendering: optimizeLegibility;
+
+  -webkit-font-smoothing: antialiased;
+
+  -moz-osx-font-smoothing: grayscale;
+
+}
+ 
+/* Remove restrictive centering */
+
+body {
+
+  margin: 0;
+
+  min-width: 320px;
+
+  min-height: 100vh;
+
+  background-color: #f9fafb;
+
+  display: block;
+
+}
+ 
+/* Links */
+
+a {
+
+  font-weight: 500;
+
+  color: #2563eb;
+
+  text-decoration: none;
+
+}
+
+a:hover {
+
+  color: #1e40af;
+
+}
+ 
+/* Buttons */
+
+button {
+
+  border-radius: 8px;
+
+  border: 1px solid transparent;
+
+  padding: 0.6em 1.2em;
+
+  font-size: 1em;
+
+  font-weight: 500;
+
+  font-family: inherit;
+
+  background-color: #2563eb;
+
+  color: white;
+
+  cursor: pointer;
+
+  transition: background-color 0.2s;
+
+}
+
+button:hover {
+
+  background-color: #1e40af;
+
+}
+
+button:focus,
+
+button:focus-visible {
+
+  outline: 3px solid #93c5fd;
+
+}
+ 
+/* Root app container */
+
+#root {
+
+  width: 100%;
+
+  min-height: 100vh;
+
+  padding: 0;
+
+  margin: 0;
+
+  background-color: #f9fafb;
+
+  text-align: left;
+
+}
+ 
+/* Optional: keep some of your logo/demo styles for Vite */
+
+.logo {
+
+  height: 6em;
+
+  padding: 1.5em;
+
+  transition: filter 300ms;
+
+}
+
+.logo:hover {
+
+  filter: drop-shadow(0 0 2em #2563ebaa);
+
+}
+ 
+@media (prefers-reduced-motion: no-preference) {
+
+  .logo {
+
+    animation: logo-spin infinite 20s linear;
+
+  }
+
+}
+
+@keyframes logo-spin {
+
+  from {
+
+    transform: rotate(0deg);
+
+  }
+
+  to {
+
+    transform: rotate(360deg);
+
+  }
+
+}
+
+ 
